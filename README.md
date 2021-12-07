@@ -10,8 +10,8 @@ For each frame and its corresponding point cloud, I compute a scalar value for e
 
 https://user-images.githubusercontent.com/18231852/145081925-b71f9d56-6db9-4f4e-8689-36fda1ecd70f.mp4
 
-Compile with g++ -std=c++11 cubes.cpp implicitFunctions.cpp utils.cpp -o cubes -lGL -lGLU -lglut -lfreeimageplus
-and g++ -std=c++11 parser.cpp -o parser -lGL -lGLU -lglut -lfreeimageplus
+Compile the mesh generator with g++ -std=c++11 cubes.cpp implicitFunctions.cpp utils.cpp -o cubes -lGL -lGLU -lglut -lfreeimageplus.
+Compile the mesh reader with g++ -std=c++11 parser.cpp -o parser -lGL -lGLU -lglut -lfreeimageplus
 
 Run ./cubes to generate .obj polygon meshes for each frame.
 run ./parser to read the meshes and generate an animation.
