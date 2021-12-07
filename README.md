@@ -14,6 +14,6 @@ Compile the mesh generator with g++ -std=c++11 cubes.cpp implicitFunctions.cpp u
 Compile the mesh reader with g++ -std=c++11 parser.cpp -o parser -lGL -lGLU -lglut -lfreeimageplus
 
 Run ./cubes to generate .obj polygon meshes for each frame.
-run ./parser to read the meshes and generate an animation.
+Run ./parser to read the meshes and generate an animation.
 
 Uses OpenGL 3.0
